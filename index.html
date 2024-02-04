@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream Builder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container" id="options-container">
+            <div class="scoop1" data-name="Scoop 1" data-price="2.50"></div>
+            <div class="scoop2" data-name="Scoop 2" data-price="3.00"></div>
+            <div class="scoop3" data-name="Scoop 3" data-price="2.75"></div>
+            <div class="bowl">
+                <div class="base"></div>
+            </div>
+        </div>
+        <div class="bill-container" id="bill-container">
+            <h2>Bill</h2>
+            <div id="bill-list"></div>
+            <button style="margin-top: 15px;" id="btn-close-bill">Close</button>
+        </div>
+        <div class="btns" id="buttons">
+            <button id="btn-scoop1">Scoop 1</button>
+            <button id="btn-scoop2">Scoop 2</button>
+            <button id="btn-scoop3">Scoop 3</button>
+            <button id="btn-topping1" data-price="0.75">Topping 1</button>
+            <button id="btn-topping2" data-price="1.00">Topping 2</button>
+            <button id="btn-bill">Bill</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
